@@ -1,0 +1,187 @@
+[
+    {
+        "eventid":"START_CHAT",
+        "question": "Are you Hungry ?",
+        "options": [
+            {
+                "option": "YES",
+                "eventid": "YES_HUNGRY"
+            },
+            {
+                "option": "NO",
+                "eventid": "NOT_HUNGRY"
+            }
+        ]
+    },{
+        "eventid":"YES_HUNGRY",
+        "question":"What would you like to eat ?",
+        "options": [
+            {
+                "option": "Hamburger",
+                "eventid": "ORDER_HAMBURGER"
+            },
+            {
+                "option": "Pizza",
+                "eventid": "ORDER_PIZZA"
+            },
+            {
+                "option": "Pop Corn",
+                "eventid": "ORDER_POPCORN"
+            },
+            {
+                "option": "Chicken",
+                "eventid": "ORDER_CHICKEN"
+            }
+        ]
+    },{
+        "eventid":"NOT_HUNGRY",
+        "question":"Ok, Call me when you are hungry.",
+        "options": [
+            {
+                "option": "",
+                "eventid": "END_CHAT"
+            }            
+        ]
+    },
+    {
+        "eventid":"ORDER_HAMBURGER",
+        "question":"Nice, I will order a hamburger for you.",
+        "options": [
+            {
+                "option": "",
+                "eventid": "END_CHAT"
+            }
+        ]
+    },{
+        "eventid":"ORDER_PIZZA",
+        "question":"Would you like a pizza with Mushrooms ?",
+        "options": [
+            {
+                "option": "YES",
+                "eventid": "ORDER_MUSHROOM_PIZZA"
+            },
+            {
+                "option": "NO",
+                "eventid": "NO_MUSHROOM_PIZZA"
+            }            
+        ]
+    },{
+        "eventid":"ORDER_MUSHROOM_PIZZA",
+        "question":"Ok , i will order the best pizza in town for you.",
+        "options": [
+            {
+                "option": "",
+                "eventid": "END_CHAT"
+            }          
+        ]
+    },{
+        "eventid":"NO_MUSHROOM_PIZZA",
+        "question":"No ? Well, stay hungry then",
+        "options": [
+            {
+                "option": "",
+                "eventid": "END_CHAT"
+            }          
+        ]
+    },{
+        "eventid":"ORDER_POPCORN",
+        "question":"What would do you prefer ?",
+        "options": [
+            {
+                "option": "Cheese",
+                "eventid": "CHEESE_POPCORN"
+            },
+            {
+                "option": "Butter",
+                "eventid": "BUTTER_POPCORN"
+            },
+            {
+                "option": "Regular",
+                "eventid": "REGULAR_POPCORN"
+            }
+        ]
+    },{
+        "eventid":"CHEESE_POPCORN",
+        "question":"Got it , Cheese popcorn on the way !",
+        "options": [
+            {
+                "option": "",
+                "eventid": "END_CHAT"
+            }          
+        ]
+    },{
+        "eventid":"BUTTER_POPCORN",
+        "question":"Got it , Ordering top class butter popcorn for you !",
+        "options": [
+            {
+                "option": "",
+                "eventid": "END_CHAT"
+            }          
+        ]
+    },{
+        "eventid":"REGULAR_POPCORN",
+        "question":"Ordering 1 regular popcorn for you!",
+        "options": [
+            {
+                "option": "",
+                "eventid": "END_CHAT"
+            }          
+        ]
+    },{
+        "eventid":"ORDER_CHICKEN",
+        "question":"What do you like ?",
+        "options": [
+            {
+                "option": "Chicken Schnitzel",
+                "eventid": "CHICKEN_SCHRITZEL"
+            },
+            {
+                "option": "Roasted Chicken",
+                "eventid": "ROASTED_CHICKEN"
+            },
+            {
+                "option": "Chicken Fricassee",
+                "eventid": "CHICKEN_FRICASSEE"
+            },{
+                "option": " Fried Potata + Chicken",
+                "eventid": "POTATO_CHICKEN"
+            }
+        ]
+    },{
+        "eventid":"CHICKEN_SCHRITZEL",
+        "question":"Ordering best chicken schnitzel for you!",
+        "options": [
+            {
+                "option": "",
+                "eventid": "END_CHAT"
+            }          
+        ]
+    },{
+        "eventid":"ROASTED_CHICKEN",
+        "question":"Ordering best roasted chicken for you!",
+        "options": [
+            {
+                "option": "",
+                "eventid": "END_CHAT"
+            }          
+        ]
+    },{
+        "eventid":"CHICKEN_FRICASSEE",
+        "question":"Ordering best chicken fricassee for you!",
+        "options": [
+            {
+                "option": "",
+                "eventid": "END_CHAT"
+            }          
+        ]
+    },{
+        "eventid":"POTATO_CHICKEN",
+        "question":"Ordering best fried potato with chicken for you!",
+        "options": [
+            {
+                "option": "",
+                "eventid": "END_CHAT"
+            }          
+        ]
+    }
+]
