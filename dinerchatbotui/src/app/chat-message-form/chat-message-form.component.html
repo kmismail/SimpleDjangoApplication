@@ -1,0 +1,12 @@
+<div class="chat-bot-form">
+  <div class="error-message" *ngIf="error">
+        {{error}}
+  </div>
+  <div *ngIf="options">
+      <ul class="chat-list-group">
+          <label class="list-group-item" *ngFor="let opt of options">
+            <input type="button" class="button" name="list_name" value="{{opt.option}}" (click)="sendOptions(opt)" />
+          </label>
+        </ul>
+  </div>  
+</div>

@@ -1,0 +1,5 @@
+<label class="list-group-item">
+  <div class= "container" [class.received-item]="chatMessage.side==='R'" [class.sent-item]="chatMessage.side==='S'">
+    {{chatMessage.question}}
+  </div>
+</label>

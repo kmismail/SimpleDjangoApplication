@@ -1,0 +1,25 @@
+.container {
+    display: flex;
+    height: 35px;
+    width: calc(100% - 85px);;           
+    padding-top: 5px;   
+    padding-bottom: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    justify-content: flex-start;
+    color:#000 !important;
+    margin: 6px 0 0 8px;
+    scroll-behavior: auto;
+}
+
+.received-item{
+    background:  #D9B08C!important;
+    padding-left: 5px;
+}
+
+.sent-item{    
+    background:  #FFCB9A!important;
+    justify-content: flex-end;
+    padding-right: 5px;
+    
+}  

@@ -1,0 +1,9 @@
+<div  class="chat-box">
+  <div class="chat-bot-header">
+      <h2>Place Your Order</h2>
+  </div>
+  <div class="message-box">
+    <app-message-list [chatMessages]="chatMessages"></app-message-list>  
+    <app-chat-message-form [options]="options" [chatMessages]="chatMessages" [error]="error"></app-chat-message-form>
+  </div>
+</div>

@@ -1,0 +1,31 @@
+.button {
+    display: flex;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0;
+    text-decoration: none;
+    background: #D1E8E2;
+    color: #000;
+    font-family: sans-serif;
+    margin:10px 0 0 10px; 
+    font-size: 0.75rem;
+    cursor: pointer;
+    text-align: center;
+    align-content: center;
+}
+
+.button:hover {
+    background: #116466;
+    color: #FFF;
+}
+
+.error-message {
+    background-color:#ff0000;
+    text-align: center;
+    height: 25px;
+    font-size: 12px;
+    color: #fff;
+    border: 1px solid #000;
+    border-radius: 5px;
+    font-family: 'Karla', sans-serif;
+}
